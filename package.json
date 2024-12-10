@@ -1,0 +1,25 @@
+{
+  "name": "chat-app-nodejs",
+  "version": "1.0.0",
+  "description": "chat app buildit using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Running tests...\" && exit 0",
+    "build": "parcel build src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kruzk02/chat-app-nodejs.git"
+  },
+  "author": "ThienPhuc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kruzk02/chat-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/Kruzk02/chat-app-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "parcel": "^2.13.2"
+  }
+}
